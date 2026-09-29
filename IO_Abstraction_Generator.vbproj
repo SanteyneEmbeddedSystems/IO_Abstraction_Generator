@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>IO_Abstraction_Generator</RootNamespace>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>True</UseWindowsForms>
+    <ImportedNamespaces>System.IO=False,Microsoft.VisualBasic=True,System=True,System.Collections=True,System.Collections.Generic=True,System.Diagnostics=True,System.Linq=True,System.Xml.Linq=True,System.Threading.Tasks=True,IO_Abstraction_Generator=True</ImportedNamespaces>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Import Include="System.IO" />
+  </ItemGroup>
+
+</Project>
